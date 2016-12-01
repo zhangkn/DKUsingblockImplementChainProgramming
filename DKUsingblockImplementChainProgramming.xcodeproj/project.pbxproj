@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1EC11F21DED6F7C00BD8C94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EC11F11DED6F7C00BD8C94 /* main.m */; };
+		E1EC11FA1DED6FCD00BD8C94 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EC11F91DED6FCD00BD8C94 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E1EC11EE1DED6F7C00BD8C94 /* DKUsingblockImplementChainProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DKUsingblockImplementChainProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EC11F11DED6F7C00BD8C94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1EC11F81DED6FCD00BD8C94 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		E1EC11F91DED6FCD00BD8C94 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E1EC11F11DED6F7C00BD8C94 /* main.m */,
+				E1EC11F81DED6FCD00BD8C94 /* People.h */,
+				E1EC11F91DED6FCD00BD8C94 /* People.m */,
 			);
 			path = DKUsingblockImplementChainProgramming;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EC11FA1DED6FCD00BD8C94 /* People.m in Sources */,
 				E1EC11F21DED6F7C00BD8C94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

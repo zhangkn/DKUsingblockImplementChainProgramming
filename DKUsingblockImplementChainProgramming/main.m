@@ -7,11 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "People.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        //使用block实现链式编程
+        People *p=  [[People alloc]init];
+//        p.run() <=> [p run]();
+        p.run().study();
+        
+        p.run().name(@"将block和method的特性 结合起来");
+        
+        
     }
     return 0;
 }
